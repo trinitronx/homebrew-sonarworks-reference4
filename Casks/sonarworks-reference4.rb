@@ -21,8 +21,8 @@
 
 
 cask "sonarworks-reference4" do
-  version "4.4.7"
-  sha256 "36b410cf5c2e9164d690eb54e87a10dcd0c696ce1c1a4c7dba1517868e959071"
+  version :latest
+  sha256 :no_check
 
   # url "https://sonarworks.com/reference/downloads/mac"
   url "https://updates.sonarworks.com/InstallerDownload.ashx?bootstrap=Reference4&platform=Mac64"
