@@ -1,4 +1,4 @@
-# homebrew-sonarworks-reference4  [![Build Status](https://travis-ci.org/trinitronx/homebrew-sonarworks-reference4.png?branch=master)](https://travis-ci.org/trinitronx/homebrew-sonarworks-reference4) <noscript><a href="https://liberapay.com/trinitronx/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+# homebrew-sonarworks-reference4  [![Build Status](https://travis-ci.com/trinitronx/homebrew-sonarworks-reference4.png?branch=master)](https://travis-ci.com/trinitronx/homebrew-sonarworks-reference4) <noscript><a href="https://liberapay.com/trinitronx/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 
 Install Sonarworks Reference 4 via Homebrew
 
