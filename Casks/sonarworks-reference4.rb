@@ -27,10 +27,10 @@ cask "sonarworks-reference4" do
   # url "https://sonarworks.com/reference/downloads/mac"
   url "https://updates.sonarworks.com/InstallerDownload.ashx?bootstrap=Reference4&platform=Mac64"
   name "Sonarworks Reference 4"
-  homepage "https://www.sonarworks.com/reference"
   desc "Reference 4 software calibrates your studio monitors and headphones, so you can trust that every mix will translate."
+  homepage "https://www.sonarworks.com/reference"
 
-  app "Reference 4.app"
+  installer manual: "Reference 4.app"
 
   uninstall quit:    "com.sonarworks.SystemWide4|com.sonarworks.Reference4Measure|com.sonarworks.Reference4Installer",
             pkgutil: "com.sonarworks.plugin4.*|com.sonarworks.SystemWideApp4|com.sonarworks.Reference4Mac"
