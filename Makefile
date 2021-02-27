@@ -26,7 +26,8 @@ install: $(TAP_DIR) $(TAP_DIR)/$(REPO_NAME) ## Install Tap via git checkout syml
 test: install ## Run tests
 	brew audit --cask $(CASK_NAME)
 	brew install --cask --verbose $(CASK_NAME)
-	pkgutil --pkgs=$(PKG_ID)
+	test -e '/usr/local/Caskroom/sonarworks-reference4/latest/Reference 4.app'
+#	pkgutil --pkgs=$(PKG_ID)
 
 clean:: ## Remove temporary/build files.
 	rm -rf $(TAP_DIR)/$(REPO_NAME)
