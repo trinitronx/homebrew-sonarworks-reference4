@@ -2,6 +2,14 @@
 
 Install Sonarworks Reference 4 via Homebrew
 
+> [!WARNING]
+> This Tap has been deprecated, because Sonarworks Reference 4 was discontinued.
+> 
+> Sonarworks Reference 4 was superceded by Sonarworks [SoundID Reference][1].
+> Users are encouraged to migrate to the [`soundid-reference`][2] Cask in my
+> new AV Casks Tap: [`LyraPhase/av-casks`][3]. (_Same maintainer, just under
+> my sole-proprietorship GitHub Org_)
+
 This recipe is designed to install the latest Sonarworks Reference 4 via the MacOS installer.  Note that Homebrew project will reject Casks or Formulae that have volatile download links (see [homebrew-cask#57634](https://github.com/Homebrew/homebrew-cask/pull/57634)).  Currently this Cask does not appear to suffer from that issue, so it may be a good candidate for future incorporation into homebrew/homebrew-cask.  For now, I will try to maintain this here in incubation phase because it is useful to me and might be for others. :smile:
 
 ## Installation
@@ -81,3 +89,6 @@ Copyright (C) © 🄯  2021 James Cuzella
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 [keybase-id]: https://gist.github.com/trinitronx/aee110cbdf55e67185dc44272784e694
+[1]: https://www.sonarworks.com/soundid-reference
+[2]: https://github.com/LyraPhase/homebrew-av-casks/blob/main/Casks/soundid-reference.rb
+[3]: https://github.com/LyraPhase/homebrew-av-casks
